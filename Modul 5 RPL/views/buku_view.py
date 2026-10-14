@@ -1,6 +1,8 @@
 import customtkinter as ctk
 from tkinter import ttk
 
+# UI form input dan tabel data buku
+
 class BukuView(ctk.CTk):
     def __init__(self):
         super().__init__()
