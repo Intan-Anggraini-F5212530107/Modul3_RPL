@@ -1,3 +1,7 @@
+import os
+os.environ['MYSQL_CONNECTOR_USE_PURE'] = '1'
+
+# ... (lanjutan kode asli di bawahnya tidak perlu diubah)
 import mysql.connector
 from mysql.connector import Error
 
